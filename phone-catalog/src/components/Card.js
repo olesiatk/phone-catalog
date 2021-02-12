@@ -7,7 +7,7 @@ export const Card = ({phone, backToCatalog}) => {
       <div className="phones__btn-buy-wrapper">
         <a 
           className="btn btn-success" 
-          href="."
+          href="#buy"
           onClick ={()=> backToCatalog()}
         >
           Back
